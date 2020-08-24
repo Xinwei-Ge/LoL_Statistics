@@ -22,7 +22,7 @@ def main():
     region = "na"
     summonerName = "Top Never Tilts"
 
-    api_key = "RGAPI-f15f6ba5-76bd-4cd2-a63f-ff7937955946"
+    api_key = "YOUR API KEY"
     watcher = LolWatcher(api_key)
     my_region = region + "1"
     me = watcher.summoner.by_name(my_region, summonerName)
